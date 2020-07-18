@@ -1,0 +1,13 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Cell voltages(discharge and charge of a six cell Li-ion battery containing five matched and one over-discharged cell.)}}{4}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Surface temperatures of one aged (normal, green) and one over-discharged (bad, red) cell.}}{5}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Surface temperature (green) and internal (anode) temperature (red) of one of the cells in a cycle-aged three-cell battery.}}{5}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces (a) Effect of cycle life on electrolyte resistance, $R_s$ , in three identical Li-ion cells. (b) Ah-capacity as a function of cycle life for one of the three cells.}}{6}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces (a) Electrolyte resistance, Rs of one cell during a single cycle of discharge{/}charge of a new and matched three-cell battery (b) Internal temperature (red) of the same cell and surface temperature (green).}}{7}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Impedance behavior of cells in different Li-ion batteries containing: (a) three new, matched cells; (b) six matched, calendar-aged cells.}}{7}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Impedance behavior of cells in different Li-ion batteries containing: (a) five matched, calendar-aged cells and one overdischarged cell; (b) five matched, calendar-aged cells and one overcharged cell.}}{8}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces (a) Impedance-based BMS: schematic describing the main components; (b) photo of the fully operational prototype and a 16-cell multiplexer.}}{9}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Outputs of impedance-based BITS-BMS for a six-cell battery containing five calendar-aged cells and one over-discharged cell, during a discharge–charge cycle: (a) Overdischarged cell only; (b) five calendar-aged, otherwise normal cells.}}{12}
+\addvspace {10\p@ }

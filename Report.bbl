@@ -1,0 +1,36 @@
+\begin{thebibliography}{1}
+
+\bibitem{8247206}
+B.~G. Carkhuff, P.~A. Demirev, and R.~Srinivasan, ``Impedance-based battery
+  management system for safety monitoring of lithium-ion batteries,'' {\em IEEE
+  Transactions on Industrial Electronics}, vol.~65, pp.~6497--6504, Aug 2018.
+
+\bibitem{dey2016sensor}
+S.~Dey, S.~Mohon, P.~Pisu, and B.~Ayalew, ``Sensor fault detection, isolation,
+  and estimation in lithium-ion batteries,'' {\em IEEE Transactions on Control
+  Systems Technology}, vol.~24, no.~6, pp.~2141--2149, 2016.
+
+\bibitem{giegerich2016open}
+M.~Giegerich, M.~Akdere, C.~Freund, T.~F{\"u}hner, J.~Grosch, S.~Koffel,
+  R.~Schwarz, S.~Waldh{\"o}r, M.~Wenger, V.~Lorentz, {\em et~al.}, ``Open,
+  flexible and extensible battery management system for lithium-ion batteries
+  in mobile and stationary applications,'' in {\em Industrial Electronics
+  (ISIE), 2016 IEEE 25th International Symposium on}, pp.~991--996, IEEE, 2016.
+
+\bibitem{taylor2012system}
+W.~Taylor, G.~Krithivasan, and J.~J. Nelson, ``System safety and iso 26262
+  compliance for automotive lithium-ion batteries,'' in {\em Product Compliance
+  Engineering (ISPCE), 2012 IEEE Symposium on}, pp.~1--6, IEEE, 2012.
+
+\bibitem{osaka2015development}
+T.~Osaka, D.~Mukoyama, and H.~Nara, ``Development of diagnostic process for
+  commercially available batteries, especially lithium ion battery, by
+  electrochemical impedance spectroscopy,'' {\em Journal of The Electrochemical
+  Society}, vol.~162, no.~14, pp.~A2529--A2537, 2015.
+
+\bibitem{waag2014critical}
+W.~Waag, C.~Fleischer, and D.~U. Sauer, ``Critical review of the methods for
+  monitoring of lithium-ion batteries in electric and hybrid vehicles,'' {\em
+  Journal of Power Sources}, vol.~258, pp.~321--339, 2014.
+
+\end{thebibliography}

@@ -1,0 +1,122 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage{cite}
+\usepackage{longtable}
+\usepackage[dvips]{graphicx,color}
+\usepackage{makeidx}
+\usepackage{nomencl}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{dsfont}
+\usepackage[bottom]{footmisc}
+\usepackage{subfigure}
+\usepackage[OT2,OT1]{fontenc}
+\newcommand{\imsize}{3in}
+\renewcommand{\bibname}{References}
+\newcommand{\norm}[1]{\left|\left|#1\right|\right|}
+\newtheorem{definition}{Definition}
+\newtheorem {remark}{Remark}
+\newtheorem{thm}{Theorem}
+\setlength{\textwidth}{6.3in}
+\setlength{\textheight}{8.8in}
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\topmargin}{-0.2in}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows,chains,matrix,positioning,scopes,decorations.pathmorphing,shadows,calc}
+
+\begin{document}
+\title{
+	\textbf
+	{\LARGE{IMPEDANCE-BASED BATTERY MANAGEMENT SYSTEM FOR SAFETY MONITORING OF LITHIUM-ION BATTERIES}} \vspace{.2in} \\ 
+	}
+\author{
+	{\Large{Seminar Report}} \\
+	{\large{Seventh semester}} \\
+	{\large{Bachelor of Technology}}\vspace{.25in}\\
+	{\bf\large ALIN ANTO} \\
+	Student \\
+	Roll No : TCR15EE016 \vspace{0.25in} \\
+	Under the Guidance of \\
+	{\bf Prof. Uma Syamkumar} \\
+	{\bf Dr. Ramesh Kumar P} \\
+	\includegraphics[height=1.4in, width=1.4in]{figures/gectemblem}\\
+	Department of Electrical Engineering \\
+	Government Engineering College  \\
+	Thrissur-680009, Kerala, India \\
+}
+\date{OCTOBER - 2018}
+\maketitle
+
+\section*{DECLARATION\centering}
+   	I undersigned hereby declare that the Seminar report ``Impedance-Based Battery Management System For Safety Monitoring Of Lithium-Ion Battery", submitted for partial fulfillment of the requirements for the award of degree of Bachelor of Technology of the APJ Abdul Kalam Technological University, Kerala is a bonafide work done by me under supervision of Prof. Uma Syamkumar and Dr. Ramesh Kumar P. This submission represents my ideas in my own words and where ideas or words of others have been included, I have adequately and accurately cited and referenced the original sources. I also declare that I have adhered to ethics of academic honesty and integrity and have not misrepresented or fabricated any data or idea or fact or source in my submission. I understand that any violation of the above will be a cause for disciplinary action by the institute and/or the University and can also evoke penal action from the sources which have thus not been properly cited or from whom proper permission has not been obtained. This report has not been previously formed the basis for the award of any degree, diploma or similar title of any other University. \\
+\vspace{0.3in}
+\newline
+	\begin{tabular}{lp{3.5in}r}
+		Thrissur  & & \\
+		Date : 10/10/2018 & & \textbf{Alin Anto}
+	\end{tabular}
+\thispagestyle{empty}
+\clearpage
+
+\section*{ACKNOWLEDGEMENT\centering}
+	I wish to place on record my hearty thanks and sincere gratitude to my supervisor Prof. Uma Syamkumar and Dr. Ramesh Kumar P  for their invaluable guidance, suggestions and constant encouragement. \\
+\vspace{0.3in}
+\newline
+	\begin{tabular}{lp{3.5in}r}
+		Thrissur  & & \\
+		Date : 10/10/2018 & & \textbf{Alin Anto}
+	\end{tabular}
+\thispagestyle{empty}
+\clearpage
+
+\begin{abstract}
+Multi-frequency impedance measurements have been recognized as a technique for the
+monitoring of individual calls in Lithium-ion (Li-ion) batteries. However, its practical
+introduction for battery management has been slow, mainly due to added size and larger
+operating power requirements. Here, we describe a small, low-power, multi-frequency (1-1000
+Hz) impedance-based battery management system (BMS) for multi-cell batteries of varying
+capacities. This BMS ensures battery safety and efficiency by tracking and acting on emerging
+mismatches and other electrical and thermal abnormalities in each individual cell without adding
+cost, volume, weight and power, compared to conventional BMSs. Multi-cell batteries face a
+unique problem that single cell Li-ion batteries do not: mismatching of one or more cells is
+detrimental to the safety and efficiency of the entire battery. Thus, cell matching is an important
+first step required for safe operation of multi-cell Li-ion batteries. Cell mismatch can occur due
+to battery over-discharge, overcharge, internal and external shorts, etc., or even when leaving a
+battery unused for an extended period (calendar aging). Predicting a mismatch is essential for a
+battery’s thermal safety and electrical efficiency. Conventional BMSs typically monitor cell
+voltages and surface temperature. However, these measurements and related protocols have not
+succeeded in ensuring battery safety or improving efficiency. Data for batteries with intentionally
+calendar-aged and over-discharged cells convincingly demonstrate that such BMSs cannot
+identify cell mismatches and emerging failures. In contrast, the impedance-based BMS,
+described here, tracks, identifies, and acts on changes in the internal state of each cell
+continuously in real time, including battery charging, discharging, and at rest.
+\end{abstract}
+
+	\pagenumbering{roman}
+	\tableofcontents
+\clearpage 
+	\addcontentsline{toc}{chapter}{List of Figures}
+	\listoffigures
+\clearpage
+	\addcontentsline{toc}{chapter}{Nomenclature} 
+	\include{chapters/Nomenclature_acro}
+\clearpage
+	\pagenumbering{arabic}
+	\include{chapters/chapter_1}
+	\include{chapters/chapter_2}
+	\include{chapters/chapter_3}
+	\include{chapters/chapter_4}	
+\clearpage
+	\addcontentsline{toc}{chapter}{References}
+	\bibliographystyle{ieeetr}
+	\bibliography{Report}
+	\nocite{8247206}
+	\nocite{dey2016sensor}
+	\nocite{giegerich2016open}
+	\nocite{taylor2012system}
+	\nocite{osaka2015development}
+	\nocite{waag2014critical}
+\end{document}
+
